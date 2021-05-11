@@ -1,5 +1,8 @@
 package com.example.demodi;
 
+
+import org.springframework.beans.factory.annotation.Qualifier;
+
 public class MyMessageRenderer implements MessageRenderer {
 
     private MessageProvider messageProvider;
