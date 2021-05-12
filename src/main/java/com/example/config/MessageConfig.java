@@ -10,7 +10,7 @@ import org.springframework.context.annotation.*;
 public class MessageConfig {
 
     @Bean
-    public MessageRenderer messageRenderer(@Qualifier("mine") MessageProvider messageProvider) {
+    public MessageRenderer messageRenderer( MessageProvider messageProvider) {
 
         return new MyMessageRenderer(messageProvider);
     }

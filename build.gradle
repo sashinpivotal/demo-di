@@ -30,4 +30,10 @@ idea {
     }
 }
 
+bootRun.environment([
+        "SPRING_PROFILES_ACTIVE": "myProfile",
+])
 
+test.environment([
+        "SPRING_PROFILES_ACTIVE": "myProfile",
+])
