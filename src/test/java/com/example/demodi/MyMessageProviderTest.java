@@ -2,24 +2,20 @@ package com.example.demodi;
 
 import com.example.config.MessageConfig;
 import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.SpringApplication;
-import org.springframework.context.ConfigurableApplicationContext;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import javax.swing.*;
-
-import static org.junit.jupiter.api.Assertions.*;
-
+@ExtendWith(SpringExtension.class)
+@ContextConfiguration(classes = MessageConfig.class)
+@ActiveProfiles(profiles={"myProfile"})
 class MyMessageProviderTest {
 
+    @Autowired
     private MessageProvider messageProvider;
-
-    @BeforeEach
-    void setUp() {
-        ConfigurableApplicationContext applicationContext = SpringApplication.run(MessageConfig.class);
-        messageProvider = applicationContext.getBean(MessageProvider.class);
-    }
 
     @Test
     void getMessage_should_return_My_hello_given_xxx() {
@@ -27,4 +23,5 @@ class MyMessageProviderTest {
         String message = messageProvider.getMessage();
         Assertions.assertThat(message).isEqualTo("My hello!");
     }
+
 }
