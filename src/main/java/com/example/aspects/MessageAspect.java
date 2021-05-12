@@ -13,7 +13,8 @@ public class MessageAspect {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
-    @Before("execution(* render(..))")
+    @Before("execution( @com.example.customAnnotations.MySpecialService  * com.example.demodi.*Renderer.render(..))")
+//    @Before("execution(@java.lang.Override * render(..))")
     public void logMessage(JoinPoint joinPoint) {
         logger.info("----> aspect: method = {}, target bean = {}",
                 joinPoint.getSignature().getName(),

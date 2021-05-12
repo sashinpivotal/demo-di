@@ -1,6 +1,7 @@
 package com.example.demodi;
 
 
+import com.example.customAnnotations.MySpecialService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
@@ -13,6 +14,7 @@ public class MyMessageRenderer implements MessageRenderer {
     }
 
     @Override
+    @MySpecialService
     public void render() {
         System.out.println(messageProvider.getMessage());
     }
