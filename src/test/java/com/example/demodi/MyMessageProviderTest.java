@@ -11,7 +11,6 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = MessageConfig.class)
-@ActiveProfiles(profiles={"myProfile"})
 class MyMessageProviderTest {
 
     @Autowired
