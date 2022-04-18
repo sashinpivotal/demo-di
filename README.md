@@ -7,6 +7,9 @@ Add some description of the app (one or two paragraph)
 - [User Stories](#User-Stories)
   - [User](#User)
   - [Admin](#Admin)
+- [Technical architecture](http://)
+- [Wire frame](http://)
+- [Schema diagram](http://)
 - [Jira](https://www.google.com/) - Please contact [Sang Shin](mailto:sangshinpassion@gmail.com) for accessing this Jira account
 
 
