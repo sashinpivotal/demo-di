@@ -9,6 +9,7 @@ Add some description of the app (one or two paragraph)
   - [Admin](#Admin)
 - [Technical architecture](http://)
 - [Technical challenegs](#Technical-challenges)
+- [Lessons learned from this project](#Lessons-learned)
 - [Wire frame](http://)
 - [Schema diagram](http://)
 - [Jira](https://www.google.com/) - Please contact [Sang Shin](mailto:sangshinpassion@gmail.com) for accessing this Jira account
