@@ -1,12 +1,14 @@
 # demo-di
 ## Food catering app
 
-Add some description of the app
+Add some description of the app (one or two paragraph)
 
 - [Daily Progress](#Daily-Progess)
 - [User Stories](#User-Stories)
   - [User](#User)
   - [Admin](#Admin)
+- [Jira](https://www.google.com/)
+
 
 ## Daily Progress
 - April 15th (80% done)
