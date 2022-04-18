@@ -5,6 +5,8 @@ Add some description of the app
 
 - [Daily Progress](#Daily-Progess)
 - [User Stories](#User-Stories)
+  - [User](#User)
+  - [Admin](#Admin)
 
 ## Daily Progress
 - April 15th (80% done)
