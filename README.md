@@ -3,13 +3,16 @@
 
 Add some description of the app (one or two paragraph)
 
+## Contents
+
 - [Daily Progress](#Daily-Progess)
 - [User Stories](#User-Stories)
   - [User](#User)
   - [Admin](#Admin)
 - [Technical architecture](http://)
-- [Technical challenegs](#Technical-challenges)
+- [Technical challenegs addressed](#Technical-challenges)
 - [Lessons learned from this project](#Lessons-learned)
+- [Future improvements](#Future-improvements)
 - [Wire frame](http://)
 - [Schema diagram](http://)
 - [Jira](https://www.google.com/) - Please contact [Sang Shin](mailto:sangshinpassion@gmail.com) for accessing this Jira account
