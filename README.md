@@ -12,9 +12,9 @@ Add some description of the app (one or two paragraph)
 
 ## Daily Progress
 - April 15th (80% done)
-  - add ADMIN, SUPERADMIN roles and have permission set for "/users" as accessible by SUPERADMIN and "/menu" and 
+  - Added ADMIN, SUPERADMIN roles and have permission set for "/users" as accessible by SUPERADMIN and "/menu" and 
     "/viewOrders" are for ADMIN & SUPERADMIN
-  - any user with first name starting with "admin" will be assigned "ROLE_USER" and "ROLE_ADMIN" role
+  - Addressed Role assignment with any user with first name starting with "admin" will be assigned "ROLE_USER" and "ROLE_ADMIN"
   - any user with first name starting with "superadmin" will be assigned "ROLE_USER", "ROLE_ADMIN", and "SUPERADMIN" role
   - added 3 error html pages - 403, 404, and 500 errors under "templates/error" folder.
   - add 3 custom queries for Order class and add search boxes in "View Orders" page (currently all 3 searches are "OR" 
